@@ -31,7 +31,15 @@ addButtonEl.addEventListener(
   function () {
     let inputValue = inputFieldEl.value;
     push(shoppingListInDB, inputValue);
-    shoppingListEl.innerHTML += `<li>${inputValue}</li>`;
-    // Challenge: Append a new <li> with text content inputValue to the 'shopping-list' <ul>
+    clearInputEl();
+    appendShoppingEl(inputValue);
   }
 );
+
+function clearInputEl() {
+  inputFieldEl.value = "";
+}
+
+function appendShoppingEl(itemValue) {
+  shoppingListEl.innerHTML += `<li>${itemValue}</li>`;
+}
