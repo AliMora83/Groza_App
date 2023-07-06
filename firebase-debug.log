@@ -23,3 +23,34 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
 [error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-07-06T16:41:38.466Z] ----------------------------------------------------------------------
+[debug] [2023-07-06T16:41:38.468Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login:ci
+[debug] [2023-07-06T16:41:38.468Z] CLI Version:   11.8.0
+[debug] [2023-07-06T16:41:38.469Z] Platform:      darwin
+[debug] [2023-07-06T16:41:38.469Z] Node Version:  v16.16.0
+[debug] [2023-07-06T16:41:38.476Z] Time:          Thu Jul 06 2023 18:41:38 GMT+0200 (South Africa Standard Time)
+[debug] [2023-07-06T16:41:38.477Z] ----------------------------------------------------------------------
+[debug] 
+[warn] ⚠  Authenticating with a `login:ci` token is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=696437815&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-07-06T16:42:02.898Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-07-06T16:42:02.899Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-07-06T16:42:05.447Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2023-07-06T16:42:05.448Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] ✔  Success! Use this token to login on a CI server:
+
+1//03ZsTAx13KwioCgYIARAAGAMSNwF-L9IrSkOQstFyaAAThMFrEzAazWM_3QtpWFsvSBFVhBcrSVu-lCP7k_wN7OaWmTsRT2kVe-s
+
+Example: firebase deploy --token "$FIREBASE_TOKEN"
+ 
+[debug] [2023-07-06T16:42:13.363Z] Error: Timed out.
+    at Timeout.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
