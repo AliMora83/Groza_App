@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "playground-e4fb8",
+    "staging": "playground-e4fb8"
+  },
+  "targets": {},
+  "etags": {}
+}
