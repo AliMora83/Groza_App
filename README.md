@@ -1,5 +1,7 @@
 # Groza App
 
+View Site [here](https://grozapp.netlify.app/)
+
 Quick start:
 
 ```
