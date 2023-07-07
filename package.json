@@ -5,6 +5,7 @@
     "vite": "latest"
   },
   "scripts": {
+    "test": "vite",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
