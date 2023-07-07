@@ -1,6 +1,6 @@
 # Quick Notes App
 
-[View Site](https://my-quicknotes-app.netlify.app/){target="_blank"}
+[View Site](https://my-quicknotes-app.netlify.app/)
 
 
 Quick start:
