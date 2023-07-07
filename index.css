@@ -15,7 +15,7 @@ html, body {
 
 img {
     width: 150px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 input {
@@ -32,17 +32,17 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: #432000;
     border: 0;
     padding: 15px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
 
 button:hover {
-    background-color: #432000;
+    background-color: #0B0604;
     cursor: pointer;
 }
 
@@ -65,6 +65,6 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #FFECC7;
+    background-color: #E8C67E;
     cursor: pointer;
 }
