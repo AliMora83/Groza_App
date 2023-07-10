@@ -22,6 +22,17 @@ const shoppingListInDB = ref(
 const inputFieldEl = document.getElementById(
   "input-field"
 );
+
+inputFieldEl.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    let inputValue = inputFieldEl.value;
+    push(shoppingListInDB, inputValue);
+
+    clearInputFieldEl();
+  }
+});
+
 const addButtonEl =
   document.getElementById("add-button");
 const shoppingListEl = document.getElementById(
